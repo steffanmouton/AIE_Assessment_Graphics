@@ -93,9 +93,15 @@ namespace LearnOpenTK
             _lampShader = new Shader("Shaders/shader.vert", "Shaders/shader.frag");
             // Our two textures are loaded in from memory, you should head over and
             // check them out and compare them to the results.
+            
+            // THIS DOESN'T WORK AND I HAVE NO CLUE WHY ?!?!?!?!?!!? help
+            //_diffuseMap = new Texture("Resources/mud_color.png");
+            //_specularMap = new Texture("Resources/mud_spec.png");
+            
+            //Rename whatever image you want to display to container2.png like a monster.
             _diffuseMap = new Texture("Resources/container2.png");
             _specularMap = new Texture("Resources/container2_specular.png");
-
+            
             _vaoModel = GL.GenVertexArray();
             GL.BindVertexArray(_vaoModel);
             
