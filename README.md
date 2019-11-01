@@ -1,2 +1,2 @@
-# LearnOpenTK
-A port of [the tutorials at LearnOpenGL](https://learnopengl.com/) to C#/OpenTK.
+# Using OpenTK as part of a Framework to learn OpenGL graphic rendering pipelines
+
